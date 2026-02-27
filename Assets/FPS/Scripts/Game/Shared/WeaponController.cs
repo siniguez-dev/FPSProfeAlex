@@ -25,7 +25,7 @@ namespace Unity.FPS.Game
         public Color CrosshairColor;
     }
 
-    [RequireComponent(typeof(AudioSource))]
+    //[RequireComponent(typeof(AudioSource))]
     public class WeaponController : MonoBehaviour
     {
         [Header("Information")] [Tooltip("The name that will be displayed in the UI for this weapon")]
